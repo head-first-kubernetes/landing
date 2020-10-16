@@ -1,0 +1,12 @@
+---
+title: Head First Kubernetes
+timezone: UTC
+sass:
+    sass_dir: _sass
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
