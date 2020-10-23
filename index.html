@@ -22,7 +22,7 @@
 					<section class="intro">
 						<header>
 							<h1>Head First Kubernetes</h1>
-							<p>A hands-on guide on Kubernetes by <a href="https://twitter.com/alixedi">Ali</a> & <a href="https://www.linkedin.com/in/paul-van-der-linden-529a3b26/">Paul</a></p>
+							<p>Because hands-on is so 2019.</p>
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
@@ -38,31 +38,51 @@
 							<h2>Introduction</h2>
 						</header>
 						<div class="content">
-							<p>In 2018, we ran a workshop on Kubernetes in PyConUK.</p>
+
+							<p>Kubernetes has become the go-to standard for running containerized applications in production. It is now supported by all major cloud vendors and being open-source, it is a good bet as foundation for keeping the rest of your stack cloud agnostic.</p>
+
+							<p>But we are not here to sell Kubernetes.</p>
+
+							<p>What we are selling is a unique and effective way of learning Kubernetes (& indeed DevOps) for beginners.</p>
+
 							<span class="image main"><img src="assets/images/pic02.png" alt="" /></span>
-							<p>Our workshop had one strict rule: <strong>Show me or it didn't happen.</strong> What does this even mean? Well, for instance:</p>
+
+							<p>For us, the journey started at PyConUK 2018 where were asked to run a Kubernetes workshop. We had been to many conferences and attended many workshops so we decided to add a little twist to ours:</p>
+
+							<p><strong>Show me or it didn't happen.</strong></p>
+
+							<p>What does this even mean? Well, for instance:</p>
 
 							<ul>
 								<li>Instead of telling people about how Kubernetes restart pods that fail, we would literally put code in our application that crashes it, hit that code and observe what happens.</li>
 								<li>Instead of telling people about Kubernetes manifests, we will not use them, get into trouble and hopefully show exactly why they exist.</li>
-								<li>Instead of using toy applications to get the concepts across, we will try and build a clone of a proper service, fail and noodle around for a solution just like we would in our day jobs.</li>
+								<li>Instead of using toy applications to get the concepts across, we will try and build a clone of a proper production service, fail and noodle around for a solution just like we would in our day jobs.</li>
 							</ul>
 
-							<p><strong>Its 2020 & the world seems to have gone to sh*t.</strong> So we thought let's reproduce this workshop in the form of a book. What can go wrong?</p>
-
+							<p>It is fair to say that the workshop was very well received and it changed our professional lives forever. Now that it's 2020 & the world seems to have gone to sh*t, we thought it would be fun to reproduce our workshop in the form of a book.</p>
+							<p>What can possibly go wrong?</p>
 						</div>
 					</section>
 
 				<!-- Section -->
 				<section id="first">
 					<header>
-						<h2>About Head First Kubernetes</h2>
+						<h2>About the book?</h2>
 					</header>
 					<div class="content">
-						<p><a href="https://twitter.com/alixedi">Ali</a> & <a href="https://www.linkedin.com/in/paul-van-der-linden-529a3b26/">Paul</a> have a combined experience of ~30 years doing engineering at startups & ~5 years of using Kubernetes in production & teaching it to other developers. Nowadays, they work as consultants which means that they get to tell people what to do instead of doing any work themselves. The upside to this arrangement is that it allows them to e.g. write this book. Long may it continue.</p>
-						<p>Head first Kubernetes is as much about Kubernetes as it is about how to teach software in general. Ali & Paul stumbled upon this unique (& weird) style called <strong>Show me or it didn't happen</strong> when they were prepping their Kubernetes workshop for PyCon 2018.</p>
-						<p>Much like everything else, this is best explained by an example:</p>
-						<span class="image main"><img src="assets/images/screenshot01.png" alt="" /></span>
+						<p><a href="https://twitter.com/alixedi">Ali</a> & <a href="https://www.linkedin.com/in/paul-van-der-linden-529a3b26/">Paul</a> have a combined experience of ~30 years doing engineering at startups & ~5 years of using Kubernetes in production & teaching it to other developers.</p>
+
+						<p>Nowadays, they work as consultants which means that they get to tell people what to do instead of doing any work themselves. The upside to this arrangement is that it allows them to e.g. write this book. Long may it continue.</p>
+
+						<p>Head first Kubernetes is as much about Kubernetes as it is about how to learn Computer Science & Software Engineering in general. Ali & Paul stumbled upon this rather unoriginal insight that 99% of Computer Science & indeed Software Engineering can be learned using nothing more than a standard laptop.</p>
+
+						<p>It is therefore suboptimal (& stupid) to tell people about e.g. Docker layers. It is suboptimal (& stupid) to draw diagrams of e.g. Docker layers. It is suboptimal (& stupid) to tell people about the benefits of Docker layers.</p>
+
+						<p>As opposed to:</p>
+
+						<div class='gallery'>
+							<a href="assets/images/screenshot01.png" class="landscape"><img src="assets/images/carbon.png" alt="" /></a>
+						</div>
 					</div>
 				</section>
 
@@ -73,9 +93,16 @@
 							<h2>Overview</h2>
 						</header>
 						<div class="content">
-							<p>The aim of this book is not to make you a Kubernetes expert overnight. Instead, this book will teach you enough Kubernetes to be dangerous and replace your fear with excitement so that you can go forth and become an expert. To that end, this book is aimed at beginners and covers Docker in addition to Kubernetes. Following is the table of contents.</p>
+							<p>The aim of this book is not to make you a Kubernetes expert overnight. Instead, this book will:</p>
 							<ul>
-								<li><a href="assets/images/Hello_Docker_World.pdf">Hello Docker World!</a></li>
+								<li>Teach you enough Kubernetes to be dangerous.</li>
+								<li>Replace fear with excitement.</li>
+								<li>Improve your judgement about when to reach out for Kubernetes and when to pass.</li>
+								<li>Provide you with the vocabulary to sell Kubernetes to your colleagues.</li>
+							</ul>
+							<p>We believe the following table of content is sufficient to achieve these aims:</p>
+							<ul>
+								<li><a href="assets/images/Hello_Docker_World.pdf"><strong>Hello Docker World!</strong></a> - Sample Chapter</li>
 								<li>Kubernetes via CLI</li>
 								<li>Kubernetes Manifests</li>
 								<li>Kubernetes jobs</li>
